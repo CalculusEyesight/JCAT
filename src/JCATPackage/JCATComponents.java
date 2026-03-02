@@ -256,7 +256,7 @@ public class JCATComponents extends PanelComponents implements ActionListener{
                     
                     n++;
                     
-                    //writing charaid
+                    //reading charaid
                     channel.position(EntryOffsets(i)[0]);
                     channel.read(mBuf);
                     mBuf.rewind();
@@ -753,4 +753,5 @@ public class JCATComponents extends PanelComponents implements ActionListener{
     
     
     
+
 
