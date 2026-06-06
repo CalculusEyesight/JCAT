@@ -1,4 +1,4 @@
-# JCAT - Xenoverse 2 Character Advance Transformation Editor
+# JCAT
 
 JCAT is a tool built with Swing, JavaFX and Maven designed to manipulate `chara_advance_transformation.cat` files for *Dragon Ball Xenoverse 2*.
 ## Prerequisites
