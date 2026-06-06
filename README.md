@@ -1,18 +1,9 @@
-## Getting Started
+# JCAT
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+JCAT is a tool built with Swing, JavaFX and Maven designed to manipulate `chara_advance_transformation.cat` files for *Dragon Ball Xenoverse 2*.
+## Prerequisites
 
-## Folder Structure
+Before running or building the project, ensure you have the following installed:
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* **Java Development Kit (JDK) 21** or higher
+* **Maven 3.8** 
