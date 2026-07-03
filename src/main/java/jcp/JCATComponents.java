@@ -499,14 +499,14 @@ public class JCATComponents extends PanelComponents implements ActionListener,Ke
                     
                             //writing I_12
                             channel.position(24*i+24);
-                            intBuffer.rewind();
+                            intBuffer.clear();
                             intBuffer.putInt(Integer.parseInt(panelr.i12.getText()));
                             intBuffer.flip();
                             channel.write(intBuffer);
                         
                             //writing I_16
                             channel.position(24*i+28);
-                            intBuffer.rewind();
+                            intBuffer.clear();
                             intBuffer.putInt(Integer.parseInt(panelr.i16.getText()));
                             intBuffer.flip();
                             channel.write(intBuffer);
@@ -615,9 +615,7 @@ public class JCATComponents extends PanelComponents implements ActionListener,Ke
     private void resetEntries() {
         // reset counters
         n = 0;
-        entryCount = 0;
-
-        // clear menu entries (keep Entry 0)
+        entryCount = 0;// clear menu entries (keep Entry 0)
         jentries.removeAll();
         jentries.add(zeroEntry);
 
